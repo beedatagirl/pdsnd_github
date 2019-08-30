@@ -2,18 +2,24 @@
 
 Project 2 of Udacity's Programming for Data Science Nanodegree explored data related to bike share systems for Chicago, New York City, and Washington. It imports data from csv files and Python script was used to compute descriptive statistics from the data. It also takes in users' raw input to create an interactive experience in the terminal to present these statistics.
 
-###Datasets
+### Datasets
 The data is provided by Motivate, which is a bike share system provider for many cities in the United States. The data files for all three cities contain the same six columns:
 Start Time
+
 End Time
+
 Trip Duration (in seconds)
+
 Start station
+
 End station
+
 User type
 
 The Chicago and New York City files also contain the following two columns:
 
 Gender
+
 Birth Year
 
 ### Questions Explored
