@@ -40,9 +40,9 @@ def get_time_period():
     time_period = ''
     while time_period.lower() not in ['month', 'day', 'none']:
         time_period = input('\nWould you like to filter the data by month, day,'
-                            ' or not at all? Type "none" for no time filter.\n')
+                            ' or none? Type "none" for no time filter.\n')
         if time_period.lower() not in ['month', 'day', 'none']:
-            print('Sorry, I do not understand your input.')
+            print('Sorry, I do not understand your input. Please select either month, day, or none.')
     return time_period
 
 def get_month():
