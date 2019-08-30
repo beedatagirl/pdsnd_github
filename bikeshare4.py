@@ -76,7 +76,7 @@ def get_day():
     valid_date = False
     while valid_date == False:
         is_int = False
-        day = input('\nWhich day? Please type your response as an integer.\n')
+        day = input('\nWhich day? Please type your response as an integer. Example: Monday = 1\n')
         while is_int == False:
             try:
                 day = int(day)
